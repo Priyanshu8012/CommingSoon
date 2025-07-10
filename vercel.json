@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "wowpio.com"
+        }
+      ],
+      "destination": "https://www.wowpio.com/$1",
+      "permanent": true
+    }
+  ]
+}
